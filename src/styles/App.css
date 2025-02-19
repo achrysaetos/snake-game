@@ -1,0 +1,49 @@
+.game-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #121212;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.logo {
+  width: 200px;
+  margin-bottom: 2rem;
+}
+
+.game-info {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.score {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0;
+  color: #4CAF50;
+}
+
+.instructions {
+  margin: 0.5rem 0;
+  color: #888;
+}
+
+.game-canvas {
+  border: 2px solid #333;
+  border-radius: 4px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.controls-info {
+  margin-top: 1rem;
+  text-align: center;
+  color: #888;
+}
+
+.controls-info p {
+  margin: 0.25rem 0;
+  font-size: 0.9rem;
+} 
